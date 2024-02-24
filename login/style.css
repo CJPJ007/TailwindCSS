@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input{
+    @apply p-1 rounded-md bg-[#FBEAEB] text-[#2F3C7E] hover:cursor-pointer hover:shadow-md hover:shadow-[#222a55] focus:outline-none focus:shadow-md focus:shadow-[#9a8d8e] focus:text-[#2F3C7E];
+}
+
+.btn{
+    @apply p-2 rounded-md bg-[#FBEAEB] text-[#2F3C7E] hover:bg-[#d3bec0] hover:shadow-md hover:shadow-[#222a55];
+}
