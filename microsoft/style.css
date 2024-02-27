@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-child{
+    @apply hover:underline hover:cursor-pointer;
+}
